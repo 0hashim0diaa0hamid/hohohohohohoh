@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1022px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 46, 46);
+    float: left;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+#main{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(76, 0, 255);
+    float: left;
+    margin: 2px 0 0 0;
+}
+#footer{
+    width: 100%;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 10px 0 0 0;
+}
+#div1{
+    width: 69.9%;
+    height: 100px;
+    float: left;
+    margin: 0 0 0 0.1%;
+}
+#div2{
+    width: 30%;
+    height: 100px;
+    background-color: #fafafa;
+    float: right;
+    margin: 0;
+    line-height: 100px;
+}
+#div1 div{
+    width: 33.333%;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+#div1 div a{
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+}
+#div1 div a:hover{
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+    background-color:white;
+}
+#div2 label{
+    float: left;
+    margin: 0 0 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+#div2 label a{
+    text-decoration: none;
+    margin: 0 0 0 14px;
+    float: left;
+    color: black;
+}
+#div2 #a1{
+    float: right;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#div2 #a1 img{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+}
+#maindiv1{
+    width: 30%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+}
+#maindiv2{
+    width: 70%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation1{
+    0%{
+        background-color: white;
+    }
+    20%{
+        background-color: rgb(255, 234, 234);
+    }
+    40%{
+        background-color: rgb(255, 205, 205);
+    }
+    60%{
+        background-color: rgb(255, 157, 157);
+    }
+    80%{
+        background-color: rgb(255, 113, 113);
+    }
+    100%{
+        background-color: rgb(255, 79, 79);
+    }
+}
+
+#maindiv1img1{
+    width: 90%;
+    height: 33vh;
+}
+#maindiv1label1{
+    color: black;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif!important;
+    margin: 15px 0 0 0;
+    display: block;
+    font-weight: 600;
+}
+#maindiv1hr1{
+    border-top: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: rgb(255, 0, 0);
+}
+.maindiv1img{
+    width: 45px;
+    height: 40px;
+    margin: 15px -4px 0 0;
+    border-bottom:2px red solid;
+    display: inline-block;
+    line-height: 0px;
+    text-align: center;
+}
+
+.maindiv1img a{
+    width: 100%;
+    height: 100%;
+}
+
+.maindiv1img a img{
+    width: 80%;
+    height: 70%;
+}
+
+
+.maindiv1img:hover{
+    width: 50px;
+    height: 50px;
+    margin: 15px -4px 0 0;
+    border-bottom:2px rgb(0, 0, 0) solid;
+    display: inline-block;
+    line-height: 0px;
+}
+
+
+
+
+#maindiv2div1{
+    width: 44%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 120px 0 0 0;
+    text-align: center;
+}
+
+#maindiv2div1labal1{
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Tajawal', sans-serif;
+    margin: 30px 0 0 0;
+    display: block;
+}
+
+#maindiv2div1hr1{
+    margin: 15px 0 0 16px;
+    width: 90%;
+    height: 3px;
+    background-color:red;
+    border-top: 0px;
+}
+
+#maindiv2div1ifram{
+    width: 200px;
+    height: 60px;
+    margin-top: 25px;
+    margin-right: 1%;
+}
+
+
+#footer #footerdiv1{
+    width: 86%;
+    height: 490px;
+    margin: 1.5% 0 0 7%;
+}
+
+#footer #footerdiv1 div{
+    width: 31.7799%;
+    height: 47%;
+    float: left;
+}
+#footer #footerdiv1 div a{
+    width: 100%;
+    height: 100%;
+}
+#footer #footerdiv1 div a img{
+    width: 100%;
+    height: 100%;
+} 
+#footerdiv1div1{
+    margin: 0 2.33% 0px 2.33%;
+}
+#footerdiv1div3{
+    margin: 2.5% 0 0 0;
+}
+#footerdiv1div4{
+    margin: 2.5% 2.33% 0 2.33%;
+}
+#footerdiv1div5{
+    margin: 2.5% 0 0 0;
+}
+
+@media screen and (max-width: 690px) and (max-height: 666px){
+    #div2 label{
+        float: left;
+        margin: 0 0 0 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        width: 20%;
+        height: 100px;
+    }
+    #div2 label a{
+        text-decoration: none;
+        margin: 0 0 0 14px;
+        color: black;
+        width: 100%;
+        height: 100px;
+        display: inline-block;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    #div2 #a1{
+        float: right;
+        background-color: antiquewhite;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    #div2 #a1 img{
+        width: 100%;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+    #footer #footerdiv1{
+        width: 86%;
+        height:600px;
+        margin: 1.5% 0 0 7%;
+    }
+
+    #footer #footerdiv1 div{
+        width: 420px;
+        height: 47%;
+        float: left;
+    }
+    #footer #footerdiv1 div a{
+        width: 100%;
+        height: 100%;
+    }
+    #footer #footerdiv1 div a img{
+        width: 100%;
+        height: 100%;
+        image-resolution: 300dpi;
+    }
+    #footerdiv1div1,#footerdiv1div2,#footerdiv1div3,#footerdiv1div4,#footerdiv1div5,#footerdiv1div6,#footerdiv1div7{
+        margin: 3% 0 0 10%;
+    }
+    #maindiv2div1{
+        width: 65%;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        margin: 120px 0 0 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 550px) and (max-height: 666px){
+    #footerdiv1div1,#footerdiv1div2,#footerdiv1div3,#footerdiv1div4,#footerdiv1div5,#footerdiv1div6,#footerdiv1div7{
+        margin: 3% 0 0 3%;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 666px){
+    #footerdiv1div1,#footerdiv1div2,#footerdiv1div3,#footerdiv1div4,#footerdiv1div5,#footerdiv1div6,#footerdiv1div7{
+        margin: 3% 0 0 0;
+    }
+}
+@media screen and (max-width: 360px) and (max-height: 640px){
+    #header{
+        margin: 2px 0 0 0;
+        width: 100%;
+        height: 200px;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div2{
+        width: 100%;
+    }
+    #div1 div{
+        width: 33.333%;
+    }
+    #div1 div a{
+        width: 100%;
+        height: 100px;
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        font-weight: 600;
+        font-family: 'Tajawal', sans-serif;
+        line-height: 30px;
+    }
+    #maindiv2div1ifram{
+        width: 180px;
+        height: 60px;
+        margin-top: 25px;
+        margin-right: 1%;
+    }
+    #maindiv2div1{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        margin: 120px 0 0 0;
+        text-align: center;
+    }
+    
+    #footer #footerdiv1{
+        width: 100%;
+        height:600px;
+        margin: 0;
+    }
+    #footer #footerdiv1 div{
+        width:100%;
+        height: 47%;
+        float: left;
+    }
+}
+@media screen and (max-width: 375px) and (max-height: 812px){
+    #header{
+        margin: 2px 0 0 0;
+        width: 100%;
+        height: 200px;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div2{
+        width: 100%;
+    }
+    #div1 div{
+        width: 33.333%;
+    }
+    #div1 div a{
+        width: 100%;
+        height: 100px;
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        font-weight: 600;
+        font-family: 'Tajawal', sans-serif;
+        line-height: 30px;
+    }
+    #maindiv2div1ifram{
+        width: 180px;
+        height: 60px;
+        margin-top: 25px;
+        margin-right: 1%;
+    }
+    #maindiv2div1{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        margin: 120px 0 0 0;
+        text-align: center;
+    }
+    
+    #footer #footerdiv1{
+        width: 100%;
+        height:600px;
+        margin: 0;
+    }
+    #footer #footerdiv1 div{
+        width:100%;
+        height: 47%;
+        float: left;
+    }
+}
